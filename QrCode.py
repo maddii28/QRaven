@@ -1,21 +1,11 @@
-import qrcode # type: ignore
-from PIL import Image # type: ignore
+from flask import Flask, redirect
 
-# Data to encode
-data = "https://www.example.com"
+app = Flask(__name__)
 
-# Create a QRCode object
-qr = qrcode.QRCode(
-    version=1,  # controls the size of the QR code
-    error_correction=qrcode.constants.ERROR_CORRECT_L,  # error correction level
-    box_size=10,  # size of each box in pixels
-    border=4,  # thickness of the border
-)
+@app.route('/')
+def home():
+    return "Welcome to the Dynamic QR Code App"
 
-# Add data to the QR code
-qr.add_data(data)
-qr.make(fit=True)
-
-# Create an image from the QR code instance
-img = qr.make_image(fill='black', back_color='white')
-img.show()  # Display the image
+# Run the app
+if __name__ == "__main__":
+    app.run(debug=True)
