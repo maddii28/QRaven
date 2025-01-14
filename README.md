@@ -26,6 +26,7 @@ With plans to integrate more advanced features like user authentication, analyti
 - **QR Code Generation**: Python's `qrcode` library to generate the QR codes.
 - **JSON**: For storing and managing mappings, user data, and QR code metadata.
 - **Ngrok**: Provides a public-facing URL for testing the app locally.
+- **Heroku**: To deploy the application
 - **HTML/CSS**: For creating the basic frontend interface.
 - **JavaScript**: Will be used for future frontend interactivity and real-time updates.
 
@@ -37,3 +38,18 @@ To set up the project locally, follow the steps below:
    ```bash
    git clone https://github.com/yourusername/QRaven.git
 
+2. Navigate to the project directory:
+   ```bash
+   cd QRaven
+   
+3. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+5. Start the Flask application:
+   ```bash
+   python run.py
