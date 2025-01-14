@@ -22,13 +22,22 @@ With plans to integrate more advanced features like user authentication, analyti
 
 ## Technologies Used
 
-- ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white): Web framework to build the app and handle routing.
-- ![QR Code](https://img.shields.io/badge/QR%20Code-000000?style=flat&logo=qr%20code&logoColor=white): Python's `qrcode` library to generate the QR codes.
-- ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white): For storing and managing mappings, user data, and QR code metadata.
-- ![Ngrok](https://img.shields.io/badge/Ngrok-000000?style=flat&logo=ngrok&logoColor=white): Provides a public-facing URL for testing the app locally.
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white): For creating the basic frontend interface.
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white): For styling the frontend of the application.
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black): Will be used for future frontend interactivity and real-time updates.
+### Backend
+- <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" height="25"> Flask - Web framework for building the backend.
+- <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" alt="JSON" height="25"> JSON - Used for storing and managing mappings and metadata.
+  
+### QR Code
+- <img src="https://img.shields.io/badge/QR%20Code-000000?style=flat&logo=qr%20code&logoColor=white" alt="QR Code" height="25"> `qrcode` - Python library for generating dynamic QR codes.
+
+### APIs & Tools
+- <img src="https://img.shields.io/badge/Ngrok-000000?style=flat&logo=ngrok&logoColor=white" alt="Ngrok" height="25"> Ngrok - Local development tool to expose the local server to the public internet.
+  
+### Frontend
+- <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" height="25"> HTML5 - Used for structuring the content of the frontend.
+- <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" height="25"> CSS3 - Styling and layout for the frontend design.
+
+### Future Features
+- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" height="25"> JavaScript - To be used for dynamic interactions and frontend interactivity.
 
 ## Installation
 
