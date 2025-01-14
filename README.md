@@ -1,4 +1,4 @@
-# QRaven - Dynamic QR Code Generator and Tracker
+# QRaven 
 ![QRaven logo](QRtiger.png)
 
 **QRaven** is a versatile web application that enables users to generate dynamic QR codes. Each QR code is linked to unique content that can change based on conditions like the time of day. This project offers a combination of QR code generation, dynamic redirection, and location-based content.
