@@ -23,13 +23,13 @@ With plans to integrate more advanced features like user authentication, analyti
 
 ## Technologies Used
 
-- ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white): Web framework to build the app and handle routing.
-- ![QR Code](https://img.shields.io/badge/QR%20Code-000000?style=flat&logo=qr%20code&logoColor=white): Python's `qrcode` library to generate the QR codes.
-- ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white): For storing and managing mappings, user data, and QR code metadata.
-- ![Ngrok](https://img.shields.io/badge/Ngrok-000000?style=flat&logo=ngrok&logoColor=white): Provides a public-facing URL for testing the app locally.
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white): For creating the basic frontend interface.
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white): For styling the frontend of the application.
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black): Will be used for future frontend interactivity and real-time updates.
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![QR Code](https://img.shields.io/badge/QR%20Code-000000?style=flat&logo=qr%20code&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
+![Ngrok](https://img.shields.io/badge/Ngrok-000000?style=flat&logo=ngrok&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 
 ## Installation
