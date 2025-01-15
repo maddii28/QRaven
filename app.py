@@ -102,18 +102,34 @@ def generate_qr():
     return send_file(img_io, mimetype='image/png')
 
 @app.route('/dynamic/<unique_id>', methods=['GET'])
-def handle_dynamic_link(unique_id):
+def dynamic_redirect_with_location(unique_id):
     # Load data
     data = read_data()
 
     # Fetch the mappings for the unique ID
     if unique_id in data:
         entry = data[unique_id]
-        
-        # Get the redirect link from the stored data
+
+        # Extract the redirect link
         redirect_link = entry.get("redirect_link", "")
-        
+
         if redirect_link:
+            # Log user's location if available
+            user_ip = request.remote_addr
+            user_location = request.args.get('location', 'Unknown')
+
+            # Update entry with user location details
+            entry['scans'] = entry.get('scans', [])
+            entry['scans'].append({
+                "ip": user_ip,
+                "location": user_location,
+                "timestamp": datetime.datetime.now().isoformat()
+            })
+
+            # Save updated data back to JSON
+            data[unique_id] = entry
+            write_data(data)
+
             return redirect(redirect_link)
         else:
             return "No link found for this QR code.", 404

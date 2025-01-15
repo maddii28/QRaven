@@ -1,7 +1,38 @@
 {
-    "0285ce0b-af04-4f50-b539-21e7f89f638a": {
-        "timestamp": "2025-01-14T18:01:11.693301",
+    "25bc46e0-f710-45e5-af5f-fa64f7d4d87e": {
+        "timestamp": "2025-01-14T23:55:48.637070",
         "condition": "evening",
-        "redirect_link": "https://gmail.com"
+        "redirect_link": "https://gmail.com",
+        "scans": [
+            {
+                "ip": "127.0.0.1",
+                "location": "Unknown",
+                "timestamp": "2025-01-14T23:56:01.260162"
+            }
+        ]
+    },
+    "a4fb75e2-fce0-4d82-8a02-9305404606f7": {
+        "timestamp": "2025-01-14T23:58:22.430726",
+        "condition": "afternoon",
+        "redirect_link": "https://chatgpt.com",
+        "scans": [
+            {
+                "ip": "127.0.0.1",
+                "location": "Unknown",
+                "timestamp": "2025-01-14T23:58:26.636437"
+            }
+        ]
+    },
+    "09e60716-148a-4a86-92f9-33b716dc4549": {
+        "timestamp": "2025-01-14T23:58:59.742575",
+        "condition": "evening",
+        "redirect_link": "https://gmail.com",
+        "scans": [
+            {
+                "ip": "127.0.0.1",
+                "location": "Unknown",
+                "timestamp": "2025-01-14T23:59:05.439926"
+            }
+        ]
     }
 }
